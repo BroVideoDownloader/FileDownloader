@@ -37,7 +37,7 @@ import java.util.List;
  * @see FileDownloadThreadPool
  * @see FileDownloadRunnable
  */
-class FileDownloadMgr implements IThreadPoolMonitor {
+public class FileDownloadMgr implements IThreadPoolMonitor {
     private final FileDownloadDatabase mDatabase;
     private final FileDownloadThreadPool mThreadPool;
     private final FileDownloadHelper.OutputStreamCreator mOutputStreamCreator;

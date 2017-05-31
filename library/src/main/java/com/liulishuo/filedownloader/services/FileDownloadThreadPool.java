@@ -29,7 +29,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 /**
  * The thread pool for driving the downloading runnable, which real access the network.
  */
-class FileDownloadThreadPool {
+public class FileDownloadThreadPool {
 
     private SparseArray<FileDownloadRunnable> runnablePool = new SparseArray<>();
 
